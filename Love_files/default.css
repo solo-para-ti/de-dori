@@ -83,3 +83,37 @@ a {
 .space {
 	margin-right: 150px;
 }
+
+@media (max-width: 768px) {
+    #wrap {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    #canvas {
+        width: 100%;
+        height: auto;
+    }
+    #text {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    #clock-box {
+        position: relative;
+        left: 0;
+        top: 0;
+        font-size: 18px;
+        padding: 10px;
+    }
+    #code {
+        font-size: 18px;
+    }
+    #clock .digit {
+        font-size: 26px;
+    }
+}
