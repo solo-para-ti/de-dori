@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
 	margin: 0;
 	padding: 0;
 	background: #F5E8DC;
 	font-size: 20px;
-	font-family: '微软雅黑', '宋体', sans-serif;
+	font-family: 'Lobster Two', cursive;
 	color: #5C4033;
 	overflow: auto
 }
@@ -35,7 +37,11 @@ a {
 
 #code {
 	display: none;
-	font-size: 28px;
+	font-size: 32px;
+}
+
+#code span.say:first-child {
+	font-size: 42px;
 }
 
 #clock-box {
@@ -84,6 +90,16 @@ a {
 	margin-right: 150px;
 }
 
+#marca-agua {
+	position: fixed;
+	bottom: 15px;
+	left: 20px;
+	font-family: 'Lobster Two', cursive;
+	font-size: 22px;
+	color: rgba(92, 64, 51, 0.25);
+	pointer-events: none;
+	z-index: 9999;
+}
 @media (max-width: 768px) {
     #wrap {
         width: 100%;
