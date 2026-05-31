@@ -63,7 +63,7 @@
             canvas.unbind("mousemove");
             canvas.removeClass('hand');
             var musica = document.getElementById('musica');
-            musica.src = musica.src.replace('autoplay=0', 'autoplay=1');
+            musica.play();
         }
     }).mousemove(function (e) {
         var offset = canvas.offset(), x, y;
