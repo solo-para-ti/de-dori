@@ -128,12 +128,12 @@
     }));
 
     var textAnimate = eval(Jscex.compile("async", function () {
-        var together = new Date();
-        together.setFullYear(2025, 8, 5);
-        together.setHours(0);
-        together.setMinutes(0);
-        together.setSeconds(0);
-        together.setMilliseconds(0);
+       var together = new Date();
+together.setFullYear(2025, 8, 5); 
+together.setHours(14);  
+together.setMinutes(2); 
+together.setSeconds(0);
+together.setMilliseconds(0);
 
         $("#code").show().typewriter();
         $("#clock-box").fadeIn(500);
